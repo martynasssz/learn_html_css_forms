@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5px; /*tarpas tarp eilučių*/
+    color:#121212; 
+    background-color:#0d326d;
+}
+
+/*Auth*/
+
+.auth {
+    width: 260px; /*atemem padinga*/
+    padding: 20px;
+    margin: 20px auto; /*iscentravimas*/
+    background-color: #fff;
+    }
+
+.auth-title {
+    margin: 0 0 15px;
+    font-size: 20px;
+    color:#c61919; 
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px; /*tam, kaad atskirti formos imputus ir klases margin nesuteikinet kiekvienam imputui*/
+}
+
+.input {
+    display:block;
+    padding: 8px 10px;
+    width:238px;
+    background-color: #fff; /*nes po defoltu pilkas fonas*/
+    border: 1px solid #ccc;
+
+    font-family:inherit;/*paveldi stilių is tevinio elemento body*/
+    font-size:15px;
+    }
+
+.input:focus { /*keisim lauko spalpa*/
+    outline: 0; /*kad panaikinti melyną apvadą apie inputo elelemta*/
+    border-color: #28cbd1;
+
+}
+
+/*Select*/
+
+.select {
+    display: block;
+    padding: 8px 10px;
+    width:260px; /*padidiname, nes nereguojama i paddinga*/
+    height:35px; /*tan, kad auksti selecto butu panasus i kitu formu*/
+    background-color: #fff; /*nes po defoltu pilkas fonas*/
+    border: 1px solid #ccc;
+    
+    font-family:inherit;/*paveldi stilių is tevinio elemento body*/
+    font-size:15px;
+}
+
+.select:focus { /*keisim lauko spalpa*/
+    outline: 0; /*kad panaikinti melyną apvadą apie inputo elelemta*/
+    border-color: #28cbd1;
+}
+
+/*btn*/
+
+.btn {
+    display:block;
+    width:260px;
+    padding: 10px;
+    border:0;
+    background-color:#4bb91b ;
+    font-family:inherit;
+    font-size: 15px;
+    color:#fff;
+}
+ 
+.btn:focus {
+    outline:0; /*uzvedus kursosiu nesikeis remelio spalva (focus pagalba)*/
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #41aa14;
+    cursor:pointer; /*pakeicia is rodykles i pirsta*/
+}
+
+.btn:active {
+    background-color:#36980d ;
+}
